@@ -1,0 +1,43 @@
+{
+    "name": "react-antd-object-table",
+    "version": "1.0.0",
+    "description": "display a list of label and value objects using descriptions component with options to make a value of copyable, multiple values as a list with a separator, copyable override at global and each item level",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "build": "rm -rf dist && rollup -c"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maskiran/react-antd-object-table.git"
+    },
+    "peerDependencies": {
+        "antd": "^4.12.3",
+        "lodash": "^4.17.21",
+        "prop-types": "^15.7.2",
+        "react": ">=16.13.3",
+        "react-dom": ">=16.13.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.1",
+        "@babel/plugin-proposal-class-properties": "^7.13.0",
+        "@babel/preset-env": "^7.13.5",
+        "@babel/preset-react": "^7.12.13",
+        "@rollup/plugin-babel": "^5.3.0",
+        "postcss": "^8.2.6",
+        "rollup": "^2.39.1",
+        "rollup-plugin-exclude-dependencies-from-bundle": "^1.1.17",
+        "rollup-plugin-postcss": "^4.0.0"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "object-table"
+    ],
+    "author": "Kiran Madabhushi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/maskiran/react-antd-object-table/issues"
+    },
+    "homepage": "https://github.com/maskiran/react-antd-object-table#readme"
+}
