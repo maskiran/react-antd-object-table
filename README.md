@@ -49,7 +49,7 @@ Disable copy icon for the whole table, but display only for a specific value
 
 ## Disable copy icon for a specific value
 
-Disable copy icon for the whole table, but display only for a specific value
+Enable copy icon for the whole table, but disable only for a specific value
 ```
 <ObjectTable data={[
     {label: 'First Name', value: dataObject.firstName},
